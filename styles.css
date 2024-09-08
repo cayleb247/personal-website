@@ -3,17 +3,15 @@
 html, body {
     padding: 0;
     margin: 0;
-    width: 100%;
-    overflow-x: hidden;
 
 }
 
 .header {
-    background-color: #1F2024;
+    background-color: #2D2D33;
     border: 0;
     border-bottom: 1px;
     border-style: solid;
-    border-color: #2D2D33;
+    border-color: #57575c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,16 +30,96 @@ html, body {
 
 .banner {
     display: flex;
+    justify-content: center;
     background-color: #1F2024;
     height: 400px;
     width: 100%;
     align-items: center;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #57575c;
+}
+
+
+
+.banner p {
+    color: white;
+    font-size: 20px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
     
 }
 
-.banner img {
-    height: 250px;
-    width: auto;
+.bio ul {
+    list-style-type: none;
+}
+
+.bio h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+.bio p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-wrap: wrap;
+    
+}
+
+.icon-container {
+
+}
+
+.icon {
+    font-size: 10px;
+}
+
+.profile {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.profile p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    text-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.profile img {
+    height: auto;
+    width: 200px;
 
 }
 
@@ -58,3 +136,67 @@ body p {
     font-size: 50px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color:white;
+    
+
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+
+    background-color: #1F2024;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #57575c;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.project h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.project p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+
+}
