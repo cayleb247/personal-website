@@ -14,9 +14,11 @@ html, body {
     border-color: #57575c;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 50px;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
 
 .header p {
@@ -26,6 +28,25 @@ html, body {
     font-style: italic;
     font-size: 25px;
     color: white
+}
+
+.icons {
+    margin-top: 5px;
+    width: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header svg {
+    transition: color 0.5s ease;
+}
+
+.header svg:hover {
+    color:#57575c
+}
+
+.header a:visited{
+    color: black;
 }
 
 .banner {
